@@ -12,5 +12,6 @@ try:
     while True:
         (daten, address) = soc.recvfrom(1024)
         print("[%s] %s" % (address[0], daten))
+        soc.sendto(b"thanks", ("192.168.0.100", 60000))
 finally:
     soc.close()
