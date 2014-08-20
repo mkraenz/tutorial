@@ -12,7 +12,7 @@ def receive(comm, addr):
     while True:
         data = comm.recv(1024)
         
-        print("[%s]: %s" % addr[0], data.decode())
+        print("[%s]: %s" % (addr[0], data.decode()))
         
 def send(comm):
     while True:
