@@ -18,7 +18,6 @@ def send(comm):
     while True:
         message = input("message: ")
         comm.send(message.encode())
-    
 
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
