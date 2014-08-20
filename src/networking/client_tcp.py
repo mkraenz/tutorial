@@ -15,6 +15,6 @@ try:
         message = input("Message: ").encode(encoding='utf_8', errors='strict')
         s.send(message)
         answer = s.recv(1024)
-        print("[%s] %s" % (ip,answer))
+        print("[%s] %s" % (ip,answer.decode()))
 finally:
     s.close()
