@@ -17,4 +17,4 @@ try:
         answer = s.recv(1024)
         print("[%s] %s" % (ip,answer.decode()))
 finally:
-    s.close()
+    s.close( )
