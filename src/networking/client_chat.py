@@ -1,19 +1,22 @@
 '''
 Created on 20.08.2014
 
-@author: Mirco
+@author: proSingularity
 '''
 
-import socket, _thread
+import socket
+import _thread
 
-addr = ip,port = "192.168.0.120", 60000
+addr = ip, port = "192.168.0.120", 60000
+
 
 def receive(comm, addr):
     while True:
         data = comm.recv(1024)
-        
+
         print("[%s]: %s" % (addr[0], data.decode()))
-        
+
+
 def send(comm):
     while True:
         message = input("message: ")

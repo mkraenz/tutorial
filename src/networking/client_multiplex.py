@@ -1,9 +1,9 @@
 '''
 Created on 20.08.2014
 
-@author: Mirco
+@author: proSingularity
 '''
-#TODO: for schleife um client tcp und zusaetzlich dauersenden
+# TODO: for schleife um client tcp und zusaetzlich dauersenden
 #dazu
 #import time
 #time.sleep(seconds)

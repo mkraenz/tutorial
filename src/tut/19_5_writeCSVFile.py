@@ -1,7 +1,7 @@
 '''
 Created on 19.08.2014
 
-@author: Mirco
+@author: proSingularity
 '''
 
 import csv

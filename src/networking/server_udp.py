@@ -1,7 +1,7 @@
 '''
 Created on 20.08.2014
 
-@author: Mirco
+@author: proSingularity
 '''
 
 import socket

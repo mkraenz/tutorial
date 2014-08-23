@@ -1,7 +1,7 @@
 '''
 Created on 20.08.2014
 
-@author: Mirco
+@author: proSingularity
 '''
 
 import socket
@@ -11,8 +11,9 @@ soc = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 try:
     while True:
         message = input("Enter new message: ")
-        if(message == "exit"):
+        if (message == "exit"):
             break
-        soc.sendto(message.encode(encoding='utf_8', errors='strict'), (ip, 60000))
+        soc.sendto(message.encode(encoding='utf_8', errors='strict'),
+                   (ip, 60000))
 finally:
     soc.close()

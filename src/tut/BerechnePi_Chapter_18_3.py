@@ -11,5 +11,4 @@ def naehere_pi_an(n):
             nenner += 2 
  
     print("Annaeherung mit %d Faktoren: %.16f" % (n, 2*pi_halbe))
-    
-naehere_pi_an(1000000)
+    return 2*pi_halbe
