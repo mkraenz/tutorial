@@ -5,5 +5,5 @@ import random
 import threading
 import networking.xmlrpc_client_Dos_c as Dos
 
-for i in range(1000):
-    Dos().start()
+for i in range(10):
+    Dos.Dos().start()

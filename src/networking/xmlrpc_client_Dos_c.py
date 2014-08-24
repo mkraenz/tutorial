@@ -12,11 +12,11 @@ class Dos(threading.Thread):
     '''
 
 
-    def __init__(self, params):
-        threading.Thread.__init__(self)
+    def __init__(self, params=None):
+        threading.Thread.__init__(self, params)
         
         
     def run(self):
-        proxy = prox("198.168.0.108:60000")
+        proxy = prox("http://198.168.0.108:60000")
         proxy.add(1,2)
     
