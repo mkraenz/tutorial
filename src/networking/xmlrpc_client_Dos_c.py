@@ -17,6 +17,6 @@ class Dos(threading.Thread):
         
         
     def run(self):
-        proxy = prox("198.168.0.100:60000")
+        proxy = prox("198.168.0.108:60000")
         proxy.add(1,2)
     
